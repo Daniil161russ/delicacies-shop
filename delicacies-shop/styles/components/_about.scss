@@ -1,0 +1,35 @@
+.about {
+	height: 70%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	&__img {
+		border-radius: 35px;
+		max-width: 505px;
+	}
+	&__content{
+		max-width: 540px;
+	}
+	&__title {
+		font-family: 'Roboto-M', sans-serif;
+		font-size: 16px;
+		line-height: 24px;
+		letter-spacing: 0.2em;
+		text-transform: uppercase;
+		color: $primary;
+		opacity: 0.7;
+		margin-bottom: 10px;
+	}
+	&__subtitle {
+		font-family: 'Philosopher', sans-serif;
+		font-size: 31.25px;
+		line-height: 41px;
+		color: $black;
+		margin-bottom: 30px;
+	}
+	&__text {
+		line-height: 24px;
+		color: #150C01;
+		opacity: 0.7;
+	}
+}

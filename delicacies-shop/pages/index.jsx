@@ -1,10 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import eatImg from '../public//images/hero_img.svg'
+import eatImg from '../public/images/hero_img.svg'
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Head>
         <title>Главная</title>
       </Head>
@@ -28,6 +28,6 @@ export default function Home() {
           <Image src={eatImg} alt="eat"/>
         </div> 
       </div>
-    </div>
+    </>
   )
 }
