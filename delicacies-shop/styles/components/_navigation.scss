@@ -1,0 +1,32 @@
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	&__panel {
+		display: flex;
+		flex-grow: 1;
+		align-items: center;
+	}
+	&__menu {
+		margin-right: auto;
+		.menu {
+			list-style: none;
+			display: flex;
+			margin: 0;
+			padding-left: 35px;
+			padding-right: 35px;
+			&__link {
+				text-decoration: none;
+				color: $black;
+				opacity: 0.6;
+			}
+			li {
+				margin-right: 23px;
+				&:first-of-type .menu__link {
+					color: $primary;
+					opacity: 1;
+				}
+			}
+		}
+	}
+}
