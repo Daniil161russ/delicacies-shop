@@ -1,0 +1,16 @@
+.not-found {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 70%;
+	h1 {
+		font-family: 'Philosopher', sans-serif;
+		font-size: 32px;
+		color: $black;
+		margin-bottom: 10px;
+	}
+	span {
+		margin-bottom: 15px;
+	}
+}
