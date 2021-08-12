@@ -1,0 +1,40 @@
+.hero {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	&__img {
+		max-width: 500px;
+	}
+	&__title {
+		margin-top: 120px;
+		margin-bottom: 42px;
+		max-width: 630px;
+		font-family: 'Philosopher', sans-serif;
+		font-size: 48.83px;
+		line-height: 58px;
+		color: $black;
+	}
+	&__description{
+		font-family: 'Roboto-M', sans-serif;
+		font-size: 16px;
+		line-height: 24px;
+		color: $black;
+		opacity: 0.7;
+		max-width: 630px;
+		margin-bottom: 50px;
+	}
+	.button-group {
+		.button {
+			padding: 25px 20px;
+			margin-right: 5px;
+		}
+		.button-primary {
+			border: 1px solid #DC780B;
+		}
+		.button-link {
+			color: $primary;
+			border: 1.5px solid rgba(220, 120, 11, 0.3);
+			border-radius: 5px;
+		}
+	}
+}

@@ -5,9 +5,11 @@ import logo from "../../public/images/logo.svg"
 const Navigation = () => {
 	return (
 		<div className="navbar">
-			<a href="/about" className="logo">
-				<Image src={logo} alt="logo" />
-			</a>
+			<Link href="/">
+				<a className="logo">
+					<Image src={logo} alt="logo" />
+				</a>
+			</Link>
 			<div className="navbar__panel">
 				<div className="navbar__menu">
 					<ul className="menu">
@@ -38,7 +40,7 @@ const Navigation = () => {
 						</li>
 					</ul>
 				</div>
-				<a href="#" class="button button-primary">
+				<a href="#" className="button button-primary">
 					Заказать сейчас
 				</a>
 			</div>
