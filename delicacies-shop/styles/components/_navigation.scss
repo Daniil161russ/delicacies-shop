@@ -20,12 +20,13 @@
 				color: $black;
 				opacity: 0.6;
 			}
+			.active-link {
+				text-decoration: none;
+				color: $primary;
+				opacity: 1;
+			}
 			li {
 				margin-right: 23px;
-				&:first-of-type .menu__link {
-					color: $primary;
-					opacity: 1;
-				}
 			}
 		}
 	}
